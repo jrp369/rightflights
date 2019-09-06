@@ -1,7 +1,7 @@
 body, html {
     font-family: Arial, Helvetica, sans-serif;
     color: #49c2dc;
-    background-image: url("/images/Front_White_Logo_EXT.jpg") 
+    background-image: url("/images/Front_White_Logo_EXT.jpg");
     background-position: center center;
     background-repeat: no-repeat fixed; 
     -webkit-background-size: cover;
