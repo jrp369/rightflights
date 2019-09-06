@@ -18,10 +18,10 @@ body, html {
 }
 
 .text1{
-    color: green;
+    color: white;
     font-size: 60px;
     font-weight: 700;
-    letter-spacing: 8px;
+    letter-spacing: 16px;
     margin-bottom: 20px;
     animation: text 3s 1;
 }
@@ -29,20 +29,19 @@ body, html {
 .text2{
     color: white;
     font-size:30px;
-    letter-spacing: 12px;
-    animation: text 5s 1;
+    letter-spacing: 8px;
+    animation: text 4s 2;
 }
 
 @keyframes text{
     0%{
         color: black;
-        margin-bottom: -20px;
     }
     30%{
-        letter-spacing: 25px;
+        letter-spacing: 8px;
     }
     85%{
-        letter-spacing: 8px;
+        letter-spacing: 12px;
     }
 
 h1 {
