@@ -28,9 +28,9 @@ body, html {
 
 .text2{
     color: white;
-    font-size:30px;
+    font-size: 20px;
     letter-spacing: 8px;
-    animation: text 4s 2;
+    animation: text 4s 1;
 }
 
 @keyframes text{
@@ -38,10 +38,10 @@ body, html {
         color: black;
     }
     30%{
-        letter-spacing: 8px;
+        letter-spacing: 6px;
     }
     85%{
-        letter-spacing: 12px;
+        letter-spacing: 10px;
     }
 
 h1 {
