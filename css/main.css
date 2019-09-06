@@ -39,6 +39,20 @@ body, html {
     animation: text 5s 1;
 }
 
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+
 h1 {
     color: #375e97;
     font-size: 2em;
