@@ -12,9 +12,7 @@ body, html {
     position: absolute;
     top: 70%;
     left: 57%;
-    <!-- Don't display currently
     transform: translate(-50%,-50%);
-    -->
 }
 
 .container span{
@@ -35,7 +33,7 @@ body, html {
     color: white;
     font-size: 18px;
     letter-spacing: 10px;
-    animation: text 4s 1;
+    animation: text 3s 1;
 }
 
 @keyframes text{
