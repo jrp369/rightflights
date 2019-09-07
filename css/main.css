@@ -16,6 +16,12 @@ body, html {
     background-size: 100% 100%;
 }
 
+/* Edit the form on */
+.form-container {
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Footer settings */
 #footercontainer {
     min-height: 100%;
 }
