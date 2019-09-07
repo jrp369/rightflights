@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body, html {
     font-family: Arial, Helvetica, sans-serif;
     color: #49c2dc;
+    height: 100%;
     
     /* Background image setting */
     background-image: url("../images/IMG_1417.jpg");
@@ -8,6 +14,23 @@ body, html {
     background-position: center center;
     background-attachment: fixed;
     background-size: 100% 100%;
+}
+
+#footercontainer {
+    min-height: 100%;
+}
+
+#footermain {
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+#footer {
+    background-color: black;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear: both;
 }
 
 /* Animated wording at the bottom of the home page */
