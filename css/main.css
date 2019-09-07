@@ -11,8 +11,10 @@ body, html {
 .container{
     position: absolute;
     top: 70%;
-    left: 60%;
+    left: 57%;
+    <!-- Don't display currently
     transform: translate(-50%,-50%);
+    -->
 }
 
 .container span{
