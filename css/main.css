@@ -18,7 +18,12 @@ body, html {
 
 /* Edit the form on */
 .form-container {
-    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    dsplay: block;
+    background-color: rgba(255,255,255,0.5);
 }
 
 /* Footer settings */
