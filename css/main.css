@@ -41,14 +41,11 @@ body, html {
     0%{
         color: black;
     }
-    25%{
+    35%{
         letter-spacing: 12px;
     }
-    50%{
+    85%{
         letter-spacing: 8px;
-    }
-    75%{
-        letter-spacing: 10px;
     }
 
 h1 {
