@@ -16,17 +16,6 @@ body, html {
     background-size: 100% 100%;
 }
 
-/* Edit the form on */
-.form-container {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    dsplay: block;
-    background-color: rgba(255,255,255,0.5);
-    transform: translate(-50%,-50%);
-}
-
 /* Footer settings */
 #footercontainer {
     min-height: 100%;
@@ -34,14 +23,14 @@ body, html {
 
 #footermain {
     overflow: auto;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 #footer {
     background-color: black;
     position: relative;
-    height: 100px;
-    margin-top: -100px;
+    height: 50px;
+    margin-top: -50px;
     clear: both;
 }
 
@@ -87,7 +76,6 @@ body, html {
     85%{
         letter-spacing: 8px;
     }
-
 }
 
 /* Header 1 settings */
@@ -119,5 +107,16 @@ a:visited {
 a:hover {
     color: black;
     text-decoration: none;
-    background-color: rgba(255,255,255,0.3);
+    /* background-color: rgba(255,255,255,0.3); */
+}
+
+/* Edit the form on */
+.form-container {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    dsplay: block;
+    background-color: rgba(255,255,255,0.5);
+    transform: translate(-50%,-50%);
 }
