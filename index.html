@@ -36,11 +36,19 @@
   <!-- Action form for flight information -->
   <form>
     <form action="index.html" method="post">
-    <label for="departure_airport">Departure Airport:</label>
+    <!-- <label for="departure_airport">Departure Airport:</label> -->
+      Departure Airport:<br>
     <input id="departure_airport" type="text" />
     
-    <label for"departure_date">Date:</label>
+    <!-- <label for"departure_date">Date:</label> -->
+      Departure Date:<br>
     <input id="departure_date" type="date" />
+      
+    <!-- <label for="trip">One-Way:</label> -->
+    <input type="radio" name="oneway" value="one-way" checked> One-Way<br> 
+      
+    <!-- <label for="trip">Round Trip:</label> -->
+    <input type="radio" name="roundtrip" value="roundtrip"> Round Trip<br>
     
     <input type="submit" value="Submit" />
   </form> 
