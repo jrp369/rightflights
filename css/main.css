@@ -64,23 +64,24 @@ h1 {
 
 </* Header 2 settings */
 h2 {
+    color: white;
     font-size: 1.5em;
 }
 
 /* Anchored link settings before visit */
 a:link {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 /* Anchored link settings after visit */
 a:visited {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 /* Anchored link settings while hovering */
 a:hover {
-    color: white;
-    text-decoration: underline overline;
+    color: black;
+    text-decoration: none;
 }
