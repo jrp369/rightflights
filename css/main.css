@@ -24,6 +24,10 @@ body, html {
     left: 50%;
     dsplay: block;
     background-color: rgba(255,255,255,0.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* Footer settings */
@@ -118,4 +122,5 @@ a:visited {
 a:hover {
     color: black;
     text-decoration: none;
+    background-color: rgba(255,255,255,0.3);
 }
