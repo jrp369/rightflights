@@ -108,18 +108,21 @@ p {
 a:link {
     color: white;
     text-decoration: none;
+    font-family: palatino, URW Palladio L, serif;
 }
 
 /* Anchored link settings after visit */
 a:visited {
     color: white;
     text-decoration: none;
+    font-family: palatino, URW Palladio L, serif;
 }
 
 /* Anchored link settings while hovering */
 a:hover {
     color: black;
     text-decoration: none;
+    font-family: palatino, URW Palladio L, serif;
     /* background-color: rgba(255,255,255,0.3); */
 }
 
@@ -129,12 +132,8 @@ a:hover {
     height: 125px;
     width: 75%;
     position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 40%;
+    left: 20%;
     dsplay: block;
     background-color: rgba(255,255,255,0.5);
-}
-
-input[type=submit]{
-    width = 100%;
 }
