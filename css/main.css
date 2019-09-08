@@ -90,8 +90,15 @@ h1 {
     font-family: palatino, URW Palladio L, serif;;
 }
 
-</* Header 2 settings */
+/* Header 2 settings */
 h2 {
+    color: white;
+    font-size: 1.5em;
+    font-family: palatino, URW Palladio L, serif;
+}
+
+/* Paragraph settings */
+p {
     color: white;
     font-size: 1.5em;
     font-family: palatino, URW Palladio L, serif;
@@ -116,7 +123,7 @@ a:hover {
     /* background-color: rgba(255,255,255,0.3); */
 }
 
-/* Edit the form on */
+/* Edit the form */
 .form-container {
     text-align: center;
     height: 125px;
@@ -125,4 +132,8 @@ a:hover {
     left: 50%;
     dsplay: block;
     background-color: rgba(255,255,255,0.5);
+}
+
+input[type=submit]{
+    width = 100%;
 }
