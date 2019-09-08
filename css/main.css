@@ -75,7 +75,10 @@ body, html {
         color: black;
         letter-spacing: 14px;
     }
-    35%{
+    30%{
+        letter-spacing: 12px;
+    }
+    60%{
         letter-spacing: 10px;
     }
     85%{
@@ -121,6 +124,7 @@ a:visited {
 /* Anchored link settings while hovering */
 a:hover {
     color: black;
+    font-size: 1em;
     text-decoration: none;
     font-family: palatino, URW Palladio L, serif;
     /* background-color: rgba(255,255,255,0.3); */
@@ -129,11 +133,12 @@ a:hover {
 /* Edit the form */
 .form-container {
     text-align: center;
-    height: 125px;
-    width: 75%;
-    position: absolute;
-    top: 40%;
-    left: 20%;
+    height: 100px;
+    width: 60%;
+    margin-top: 10px;
+    /* position: absolute; */
+    top: 50%;
+    left: 25%;
     dsplay: block;
     background-color: rgba(255,255,255,0.5);
 }
