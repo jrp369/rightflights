@@ -154,6 +154,7 @@ a:hover {
     position: relative;
     top: 5%;
     left: 5%;
-    dsplay: block;
+    display: inline-block;
+    margin: 10px;
     /* background-color: rgba(255,255,255,0.5); */
 }
