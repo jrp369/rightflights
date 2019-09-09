@@ -130,7 +130,7 @@ a:hover {
     /* background-color: rgba(255,255,255,0.3); */
 }
 
-/* Edit the form */
+/* Edit the form section */
 .form-container {
     text-align: center;
     height: 100px;
@@ -141,4 +141,17 @@ a:hover {
     left: 15%;
     dsplay: block;
     background-color: rgba(255,255,255,0.5);
+}
+
+/* Edit the tab section */
+.tab-container {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    dsplay: block;
+    /* background-color: rgba(255,255,255,0.5); */
 }
