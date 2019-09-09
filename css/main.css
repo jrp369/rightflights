@@ -138,23 +138,23 @@ a:hover {
     width: 55%;
     margin-top: 10px;
     position: relative;
-    top: 42%;
+    top: 43%;
     left: 22.5%;
     dsplay: block;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.7);
 }
 
 /* Edit the tab section */
 .tab-container {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     letter-spacing: 2px;
     height: 25px;
     width: 40%;
     margin-top: 5px;
     position: relative;
-    top: 5%;
-    left: 2.5%;
+    top: 10%;
+    left: 5%;
     display: inline-block;
     /* background-color: rgba(255,255,255,0.5); */
 }
