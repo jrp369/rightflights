@@ -148,6 +148,7 @@ a:hover {
 .tab-container {
     /* text-align: left; */
     font-size: 20px;
+    padding: 10px;
     letter-spacing: 2px;
     height: 25px;
     width: 38%;
