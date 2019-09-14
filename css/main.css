@@ -69,19 +69,33 @@ body, html {
     animation: text 2s 1;
 }
 
+/*
+.text3{
+    color: white;
+    font-family: palatino, URW Palladio L, serif;
+    font-size: 18px;
+    letter-spacing: 12px;
+    animation: text 2s 1;
+}
+*/
+
+/*
+.text4{
+    color: white;
+    font-family: palatino, URW Palladio L, serif;
+    font-size: 18px;
+    letter-spacing: 12px;
+    animation: text 2s 1;
+}
+*/
+
 /* Animated motions at specified % of time */
 @keyframes text{
     0%{
         color: black;
         letter-spacing: 14px;
     }
-    30%{
-        letter-spacing: 12px;
-    }
     60%{
-        letter-spacing: 10px;
-    }
-    85%{
         letter-spacing: 8px;
     }
 }
@@ -148,11 +162,11 @@ a:hover {
 .tab-container {
     /* text-align: left; */
     font-size: 20px;
-    padding: 10px;
-    letter-spacing: 2px;
+    padding-left: 10px;
+    /* letter-spacing: 2px; */
     height: 25px;
     width: 38%;
-    margin-top: 15px;
+    margin-top: 10px;
     position: relative;
     top: 10%;
     left: 1.5%;
