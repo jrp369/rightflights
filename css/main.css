@@ -58,7 +58,7 @@ body, html {
     font-weight: 700;
     letter-spacing: 14px;
     margin-bottom: 20px;
-    animation: text 3s 1;
+    animation: text 2s 1;
 }
 
 .text2{
@@ -66,7 +66,7 @@ body, html {
     font-family: palatino, URW Palladio L, serif;
     font-size: 18px;
     letter-spacing: 12px;
-    animation: text 3s 1;
+    animation: text 2s 1;
 }
 
 /* Animated motions at specified % of time */
