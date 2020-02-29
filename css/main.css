@@ -108,6 +108,19 @@ form button {
     font-family: palatino, URW Palladio L, serif;
 }
 
+form a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: palatino, URW Palladio L, serif;
+}
+
+form a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
 .login {
     font-size: 20px;
     /* padding-left: 50px; */
