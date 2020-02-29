@@ -38,8 +38,8 @@ body, html {
 
 .button{
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 80px;
+    left: 80px;
     border: 1px solid white; 
     background-color: white;
     border-radius: 15px;
@@ -48,7 +48,7 @@ body, html {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    padding: 20px 30px;
+    padding: 10px 10px;
     font-family: palatino, URW Palladio L, serif;
 }
 
@@ -141,6 +141,7 @@ p {
 a:link {
     color: white;
     text-decoration: none;
+    font-size: 18px;
     font-family: palatino, URW Palladio L, serif;
 }
 
@@ -148,13 +149,14 @@ a:link {
 a:visited {
     color: white;
     text-decoration: none;
+    font-size: 18px;
     font-family: palatino, URW Palladio L, serif;
 }
 
 /* Anchored link settings while hovering */
 a:hover {
     color: black;
-    font-size: 1em;
+    font-size: 18px;
     text-decoration: none;
     font-family: palatino, URW Palladio L, serif;
     /* background-color: rgba(255,255,255,0.3); */
