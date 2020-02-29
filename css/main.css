@@ -16,6 +16,10 @@ body, html {
     background-size: 100% 100%;
 }
 
+#content-wrap {
+    padding-bottom: 10px;
+}
+
 /* Footer settings */
 #footercontainer {
     min-height: 100%;
