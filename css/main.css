@@ -83,10 +83,17 @@ body, html {
 
 form {
   padding: 15px;
-  /*border: 1px solid #666;*/
-  background: #fff;
   color: black;
   display: none;
+  position: absolute;
+  top: 150px;
+  left: 78%;
+  background-color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 10px;
+  font-family: palatino, URW Palladio L, serif;
 }
 
 .login {
