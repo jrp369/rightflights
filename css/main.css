@@ -17,7 +17,7 @@ body, html {
 }
 
 #content-wrap {
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 /* Footer settings */
@@ -41,7 +41,7 @@ body, html {
     clear: both;
 }
 
-.button: {
+.button {
     position: absolute;
     top: 80px;
     left: 80px;
