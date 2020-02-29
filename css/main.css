@@ -33,11 +33,11 @@ body, html {
     color: white;
     text-align: center;
     height: 80px;
-    margin-top: -80px;
+    margin-top: -100px;
     clear: both;
 }
 
-.button{
+.button:hover {
     position: absolute;
     top: 80px;
     left: 80px;
