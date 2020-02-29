@@ -36,9 +36,6 @@
         <button type="button" id="submit">Login</button>
     </form>
     <span> <a href="index.html">Create an Account</a> </span>
-    $("#formButton").click(function(){
-        $("#loginform").toggle();
-    });
   </div>
   
   <div id="content-wrap">
@@ -99,14 +96,19 @@
         <div id="footermain">
         </div>
   </div>
-
-      <footer id="footer">
-        <p>Posted by: Jonathon Price</p>
-        <p>Endeavor To Adventure 2019</p>
-        <p>Contact information: <a href="mailto:jonnyprice9@gmail.com">
-        jonnyprice9@gmail.com</a>.</p>
-        <p>Social Media:</p>
-      </footer>
+  
+  <!-- jQuery form -->
+  $("#formButton").click(function(){
+          $("#loginform").slideDown("slow");
+  });
+  
+  <footer id="footer">
+    <p>Posted by: Jonathon Price</p>
+    <p>Endeavor To Adventure 2019</p>
+    <p>Contact information: <a href="mailto:jonnyprice9@gmail.com">
+    jonnyprice9@gmail.com</a>.</p>
+    <p>Social Media:</p>
+  </footer>
     
 </body>
 </html>                                                  
