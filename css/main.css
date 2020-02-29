@@ -55,6 +55,27 @@ body, html {
     background-color: rgba(255,255,255,0.3);
 }
 
+.formButton {
+    border: none; 
+    background-color: none;
+    border-radius: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 15px;
+    font-family: palatino, URW Palladio L, serif;
+}
+
+.formButton:hover {
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+    color: black;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.3);
+    
+}
+
 .login {
     font-size: 20px;
     /* padding-left: 50px; */
