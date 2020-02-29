@@ -36,7 +36,11 @@ body, html {
     clear: both;
 }
 
-#button {
+.button {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border: 1px solid #f9f68a; 
     background-color: white;
     border-radius: 15px;
     color: black;
