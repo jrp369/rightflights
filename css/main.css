@@ -28,9 +28,9 @@ body, html {
 
 #footer {
     background-color: black;
+    position: relative;
     color: white;
     text-align: center;
-    position: relative;
     height: 80px;
     margin-top: -80px;
     clear: both;
@@ -145,7 +145,7 @@ a:hover {
 }
 
 /* Edit the form section */
-.form-container {
+/*.form-container {
     text-align: center;
     color: black;
     height: 90px;
@@ -156,10 +156,10 @@ a:hover {
     left: 22.5%;
     dsplay: block;
     background-color: rgba(255,255,255,0.7);
-}
+}*/
 
 /* Edit the tab section */
-.tab-container {
+/*.tab-container {
     /* text-align: left; */
     font-size: 20px;
     padding-left: 50px;
@@ -171,5 +171,5 @@ a:hover {
     top: 10%;
     left: 1.5%;
     display: inline-block;
-    /* background-color: rgba(255,255,255,0.5); */
-}
+    /* background-color: rgba(255,255,255,0.5);
+}*/
