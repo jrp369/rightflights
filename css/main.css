@@ -36,6 +36,16 @@ body, html {
     clear: both;
 }
 
+#button {
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 /* Animated wording at the bottom of the home page */
 .container{
     text-align: center;
