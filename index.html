@@ -33,9 +33,12 @@
     <form id="loginform">
         <b>Username:</b> <input type="text" placeholder="Username" name="username">
         <b>Password: </b><input type="text" placeholder="Password" name="password">
-         <button type="button" id="submit">Login</button>
-      </form>
+        <button type="button" id="submit">Login</button>
+    </form>
     <span> <a href="index.html">Create an Account</a> </span>
+    $("#formButton").click(function(){
+        $("#loginform").toggle();
+    });
   </div>
   
   <div id="content-wrap">
