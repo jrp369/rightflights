@@ -55,9 +55,9 @@ body, html {
     background-color: rgba(255,255,255,0.3);
 }
 
-.login button:link {
+.login button {
     border: none; 
-    /*background-color: none;*/
+    background-color: transparent;
     border-radius: none;
     color: white;
     text-align: center;
