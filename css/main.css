@@ -71,6 +71,7 @@ body, html {
 .login button:visited {
     color: white;
     text-decoration: none;
+    border: none;
 }
 
 .login button:hover {
