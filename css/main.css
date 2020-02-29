@@ -50,6 +50,7 @@ body, html {
     font-size: 16px;
     padding: 10px 10px;
     font-family: palatino, URW Palladio L, serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 /* Animated wording at the bottom of the home page */
@@ -59,6 +60,7 @@ body, html {
     top: 84%;
     left: 51%;
     transform: translate(-50%,-50%);
+    overflow: auto;
 }
 
 .container span{
