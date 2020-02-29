@@ -59,7 +59,7 @@ body, html {
     border: none; 
     background-color: none;
     border-radius: none;
-    color: white;
+    /*color: white;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
