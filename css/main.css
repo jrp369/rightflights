@@ -83,8 +83,9 @@ body, html {
 
 form {
   padding: 15px;
-  border: 1px solid #666;
+  /*border: 1px solid #666;*/
   background: #fff;
+  color: black;
   display: none;
 }
 
