@@ -98,6 +98,7 @@ form label {
     width: 80px;
     display: inline-block;
     text-align: right;
+    margin-bottom: 10px;
 }
 
 form button {
