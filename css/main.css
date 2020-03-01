@@ -109,7 +109,7 @@ form button {
     text-decoration: none;
     display: block;
     /*left: 50%;*/
-    margin-top: 5px;
+    margin-top: 50px;
     margin: 0 auto;
     font-size: 18px;
     padding: 5px 10px;
@@ -122,6 +122,7 @@ form a {
     color: white;
     display: inline-block;
     align: center;
+    width: 50%;
     font-size: 14px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
