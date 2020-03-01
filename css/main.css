@@ -95,7 +95,7 @@ form {
 }
 
 form label {
-    width: 50px;
+    width: 75px;
     display: inline-block;
     text-align: right;
 }
@@ -118,7 +118,8 @@ form a {
     text-align: center;
     text-decoration: none;
     color: white;
-    display: inline-block;
+    display: block;
+    align: center;
     font-size: 18px;
     padding: 10px 10px;
     font-family: palatino, URW Palladio L, serif;
