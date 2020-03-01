@@ -107,7 +107,9 @@ form button {
     color: black;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
+    left: 50%;
+    /*margin: 0 auto;*/
     font-size: 18px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
