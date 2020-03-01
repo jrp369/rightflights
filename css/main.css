@@ -109,6 +109,7 @@ form button {
     text-decoration: none;
     display: block;
     /*left: 50%;*/
+    margin-top: 5px;
     margin: 0 auto;
     font-size: 18px;
     padding: 5px 10px;
@@ -119,7 +120,7 @@ form a {
     text-align: center;
     text-decoration: none;
     color: white;
-    display: block;
+    display: inline-block;
     align: center;
     font-size: 14px;
     padding: 5px 10px;
