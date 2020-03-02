@@ -96,7 +96,7 @@ body, html {
     display: none;
 }
 
-form {
+#loginform {
   color: white;
   position: fixed;
   top: 60px;
@@ -109,14 +109,14 @@ form {
   display: none;
 }
 
-form label {
+#loginform label {
     width: 80px;
     display: inline-block;
     text-align: right;
     margin-bottom: 10px;
 }
 
-form button {
+#loginform button {
     border: 1px solid white;
     border-radius: 15px;
     background-color: white;
@@ -130,7 +130,7 @@ form button {
     font-family: palatino, URW Palladio L, serif;
 }
 
-form a {
+#loginform a {
     text-align: center;
     text-decoration: none;
     color: white;
@@ -144,7 +144,7 @@ form a {
     font-family: palatino, URW Palladio L, serif;
 }
 
-form a:hover {
+#loginform a:hover {
     color: blue;
     text-decoration: none;
 }
