@@ -66,20 +66,20 @@
     
     <!-- Search Menu to create itinerary -->
     <form id="searchMenu">
-      <label for="departure_airport">Departure Airport: </label>
-      <input id="departure_airport" type="text" />
-      <label for"departure_date">  Departure Date:</label>
-      <input id="departure_date" type="date" /> <br>
-
-      <label for="destination">Destination Airport: </label>
-      <input id="destination" type="text" />
-      <label for"num_nights">  Number of Nights:</label>
-      <input id="num_nights" type="text" /> <br>
-
       <!--<label for="trip">One-Way:</label>-->
       <input type="radio" name="trip" value="roundtrip" checked>Roundtrip
       <input type="radio" name="trip" value="one-way">One-Way<br>
       <input type="radio" name="trip" value="multi-city">Multi-City<br>
+      
+      <label for="departure_airport">Departure Airport: </label>
+      <input id="departure_airport" type="text" /> <br>
+      <label for"departure_date">  Departure Date:</label>
+      <input id="departure_date" type="date" /> <br>
+
+      <label for="destination">Destination Airport: </label>
+      <input id="destination" type="text" /> <br>
+      <label for"num_nights">  Number of Nights:</label>
+      <input id="num_nights" type="text" /> <br>
 
       <button type="button" id="submit">Search</button>
     </form>
