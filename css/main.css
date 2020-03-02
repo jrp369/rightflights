@@ -103,7 +103,6 @@ body, html {
 }
 
 #searchMenu radio {
-    margin: 0 10px 0 10px;
     margin-bottom: 10px;
 }
 
@@ -235,7 +234,7 @@ body, html {
 .button {
     position: fixed;
     top: 15%;
-    left: 35%;
+    left: 30%;
     border: 1px solid white; 
     background-color: white;
     border-radius: 15px;
@@ -258,8 +257,8 @@ button:focus {outline:0;}
 .question {
     text-align: center;
     position: fixed;
-    top: 8%;
-    left: 15%;
+    top: 15%;
+    left: 7%;
     overflow: auto;
 }
 
