@@ -99,11 +99,35 @@ body, html {
 #searchMenu {
     display: none;
     text-align: center;
-    color: black;
+    color: white;
     position: fixed;
+    top: 50%;
+    margin: 0 auto;
     padding: 10px 10px;
+    text-decoration: none;
     font-family: palatino, URW Palladio L, serif;
-    background-color: rgba(255,255,255,0.7);  
+    background-color: black; /*rgba(255,255,255,0.7); gray*/ 
+}
+
+#searchMenu label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#searchMenu button {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 5px 10px;
+    font-family: palatino, URW Palladio L, serif;
 }
 
 #loginform {
