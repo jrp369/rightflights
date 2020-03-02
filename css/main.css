@@ -100,11 +100,7 @@ body, html {
     display: none;
     text-align: center;
     color: black;
-    height: 90px;
-    width: 55%;
-    position: relative;
-    top: 50%;
-    left: 50%;
+    position: fixed;
     padding: 10px 10px;
     font-family: palatino, URW Palladio L, serif;
     background-color: rgba(255,255,255,0.7);  
