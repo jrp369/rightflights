@@ -254,8 +254,24 @@ body, html {
 .button:focus {outline:0;}
 button:focus {outline:0;}
 
+.question {
+    text-align: center;
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    overflow: auto;
+}
+
+.text {
+    color: white;
+    font-family: palatino, URW Palladio L, serif;
+    font-size: 40px;
+    font-weight: 700;
+    /*letter-spacing: 14px;*/
+}
+
 /* Animated wording at the bottom of the home page */
-.container{
+.container {
     text-align: center;
     position: absolute;
     top: 84%;
@@ -287,26 +303,6 @@ button:focus {outline:0;}
     letter-spacing: 12px;
     animation: text 4s 1;
 }
-
-/*
-.text3{
-    color: white;
-    font-family: palatino, URW Palladio L, serif;
-    font-size: 18px;
-    letter-spacing: 12px;
-    animation: text 2s 1;
-}
-*/
-
-/*
-.text4{
-    color: white;
-    font-family: palatino, URW Palladio L, serif;
-    font-size: 18px;
-    letter-spacing: 12px;
-    animation: text 2s 1;
-}
-*/
 
 /* Animated motions at specified % of time */
 @keyframes text{
