@@ -81,28 +81,14 @@ body, html {
     background-color: rgba(255,255,255,0.3); 
 }
 
-/* Edit the form section */
-/*.form-container {
-    text-align: center;
-    color: black;
-    height: 90px;
-    width: 55%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    padding: 10px 10px;
-    font-family: palatino, URW Palladio L, serif;
-    background-color: rgba(255,255,255,0.7);
-    display: none;
-}*/
-
 #searchMenu {
     display: none;
     text-align: center;
     color: white;
     position: fixed;
-    top: 50%;
-    margin: 0 auto;
+    top: 40%;
+    width: 50%;
+    left: 25%;
     padding: 10px 10px;
     text-decoration: none;
     font-family: palatino, URW Palladio L, serif;
@@ -110,7 +96,7 @@ body, html {
 }
 
 #searchMenu label {
-    width: 100px;
+    width: 200px;
     display: inline-block;
     text-align: right;
     margin-bottom: 10px;
