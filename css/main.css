@@ -83,12 +83,12 @@ body, html {
 
 #searchMenu {
     display: none;
-    text-align: center;
+    text-align: left;
     color: white;
     position: fixed;
     top: 40%;
-    width: 50%;
-    left: 25%;
+    width: 40%;
+    left: 30%;
     padding: 10px 10px;
     text-decoration: none;
     font-family: palatino, URW Palladio L, serif;
@@ -96,10 +96,14 @@ body, html {
 }
 
 #searchMenu label {
-    width: 200px;
+    width: 150px;
     display: inline-block;
     text-align: right;
     margin-bottom: 10px;
+}
+
+#searchMenu radio {
+    margin: 0 10px 0 10px;
 }
 
 #searchMenu button {
