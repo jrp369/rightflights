@@ -87,8 +87,8 @@ body, html {
     color: white;
     position: fixed;
     top: 35%;
-    width: 24%;
-    left: 37%;
+    width: 30%;
+    left: 35%;
     padding: 10px 10px;
     text-decoration: none;
     font-family: palatino, URW Palladio L, serif;
@@ -233,9 +233,9 @@ body, html {
 }
 
 .button {
-    position: absolute;
-    top: 80px;
-    left: 80px;
+    position: fixed;
+    top: 15%;
+    left: 35%;
     border: 1px solid white; 
     background-color: white;
     border-radius: 15px;
@@ -244,7 +244,7 @@ body, html {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    padding: 10px 10px;
+    padding: 6px 10px;
     font-family: palatino, URW Palladio L, serif;
 }
 
@@ -258,7 +258,7 @@ button:focus {outline:0;}
 .question {
     text-align: center;
     position: fixed;
-    top: 15%;
+    top: 8%;
     left: 15%;
     overflow: auto;
 }
@@ -266,7 +266,7 @@ button:focus {outline:0;}
 .text {
     color: white;
     font-family: palatino, URW Palladio L, serif;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 700;
     /*letter-spacing: 14px;*/
 }
