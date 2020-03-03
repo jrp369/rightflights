@@ -233,7 +233,7 @@ body, html {
 
 .button {
     position: fixed;
-    top: 18%;
+    top: 16.5%;
     left: 30%;
     border: 1px solid white; 
     background-color: white;
@@ -262,7 +262,7 @@ button:focus {outline:0;}
     overflow: auto;
 }
 
-.feedbackButton {
+.feedback_Button {
     text-align: center;
     position: fixed;
     top: 60%;
