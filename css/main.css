@@ -262,7 +262,7 @@ button:focus {outline:0;}
     overflow: auto;
 }
 
-.feedback_button feedbackButton {
+.feedbackButton {
     text-align: center;
     position: fixed;
     top: 60%;
@@ -274,7 +274,7 @@ button:focus {outline:0;}
     font-family: palatino, URW Palladio L, serif;
 }
 
-.feedback_button feedbackButton:hover {
+.feedbackButton:hover {
     color: black;
     text-decoration: none;
     background-color: rgba(255,255,255,0.3);
