@@ -262,6 +262,18 @@ button:focus {outline:0;}
     overflow: auto;
 }
 
+.feedbackButton {
+    text-align: center;
+    position: fixed;
+    top: 60%;
+    left: 95%;
+    transform: rotate(90deg);
+    overflow: auto;
+    color: white;
+    background-color: black;
+    font-family: palatino, URW Palladio L, serif;
+}
+
 .text {
     color: white;
     font-family: palatino, URW Palladio L, serif;
