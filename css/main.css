@@ -303,6 +303,14 @@ button:focus {outline:0;}
     margin-bottom: 10px;
 }
 
+#feedbackForm text {
+    width: 200px;
+    height: 75px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
 #feedbackForm button {
     border: 1px solid white;
     border-radius: 15px;
