@@ -42,6 +42,13 @@
       <a href="index.html">Sign Up</a>
     </form>
     
+    <!-- Feedback Form -->
+    <form id="feedbackForm">
+      <label for="userfeedback">Feedback: </label>
+      <input type="text" placeholder="Enter your feedback" name="userFeedback">
+      <input class="button" type="submit" value="Submit Feedback">
+    </form>
+    
     <!-- Don't include these for the time being
     <div class="header_text">
       <span class="text3">Endeavor To Adventure</span>
@@ -129,7 +136,14 @@
       });
     });
   </script>
-          
+  
+  <script>
+    $(document).ready(function() {
+      $("#feedback_button").click(function() {
+        $("#feedbackForm").slideLeft("slow");
+      });
+    });
+  </script>        
   
 </body>
 </html>                                                  
