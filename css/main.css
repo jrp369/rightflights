@@ -282,6 +282,41 @@ button:focus {outline:0;}
     text-decoration: none;
 }
 
+#feedbackForm {
+    display: none;
+    text-align: left;
+    color: white;
+    position: fixed;
+    top: 755%;
+    width: 25%;
+    left: 75%;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: palatino, URW Palladio L, serif;
+    background-color: black; /*rgba(255,255,255,0.7); gray*/ 
+}
+
+#feedbackForm label {
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#feedbackForm button {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 5px 10px;
+    font-family: palatino, URW Palladio L, serif;
+}
+
 .text {
     color: white;
     font-family: palatino, URW Palladio L, serif;
