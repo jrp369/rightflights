@@ -44,7 +44,12 @@
     
     <!-- Feedback Form -->
     <form id="feedbackForm">
-      <label for="userfeedback">Feedback: </label>
+      <label for="userfeedbackType">What can we improve? </label>
+      <input type="radio" name="feedbackType1" value="type1" checked>User Interface Navigation <br>
+      <input type="radio" name="feedbackType2" value="type2" checked>User Interface Appearance <br>
+      <input type="radio" name="feedbackType3" value="type3" checked>System Response Time <br>
+      <input type="radio" name="feedbackType4" value="type4" checked>Other <br>
+      <label for="userfeedbackHow">How can we improve it? </label>
       <input type="text" placeholder="Enter your feedback" name="userFeedback">
       <input class="button" type="submit" value="Submit Feedback">
     </form>
