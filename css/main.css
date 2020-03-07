@@ -287,9 +287,9 @@ button:focus {outline:0;}
     text-align: left;
     color: white;
     position: fixed;
-    top: 70%;
+    top: 50%;
     width: 25%;
-    left: 70%;
+    left: 75%;
     padding: 10px 10px;
     text-decoration: none;
     font-family: palatino, URW Palladio L, serif;
@@ -297,8 +297,7 @@ button:focus {outline:0;}
 }
 
 #feedbackForm label {
-    width: 150px;
-    height: 50px;
+    width: 200px;
     display: inline-block;
     text-align: left;
     margin-bottom: 10px;
