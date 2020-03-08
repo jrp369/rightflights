@@ -303,15 +303,15 @@ button:focus {outline:0;}
     margin-bottom: 10px;
 }
 
-#feedbackForm text {
+#feedbackForm input[type=text] {
     width: 100%;
-    height: 75px;
+    height: 100px;
     display: inline-block;
     text-align: left;
     margin-bottom: 10px;
 }
 
-#feedbackForm submit {
+#feedbackForm input[type=submit] {
     border: 1px solid white;
     border-radius: 15px;
     background-color: white;
@@ -334,7 +334,21 @@ button:focus {outline:0;}
     text-decoration: none;
     display: inline-block;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 12px;
+    padding: 5px 10px;
+    font-family: palatino, URW Palladio L, serif;
+}
+
+#feedbackForm input[type=reset] {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 12px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
 }
