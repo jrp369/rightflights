@@ -318,9 +318,11 @@ button:focus {outline:0;}
     color: black;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     margin: 0 auto;
+    margin-bottom: 10px;
     font-size: 18px;
+    width: 90%;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
 }
@@ -332,8 +334,9 @@ button:focus {outline:0;}
     color: black;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     margin: 0 auto;
+    margin-bottom: 10px;
     font-size: 12px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
@@ -348,6 +351,7 @@ button:focus {outline:0;}
     text-decoration: none;
     display: inline-block;
     margin: 0 auto;
+    margin-bottom: 10px;
     font-size: 12px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
