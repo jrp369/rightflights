@@ -287,7 +287,7 @@ button:focus {outline:0;}
     text-align: left;
     color: white;
     position: fixed;
-    top: 47%;
+    top: 40%;
     width: 20%;
     left: 80%;
     padding: 10px 10px;
@@ -305,7 +305,7 @@ button:focus {outline:0;}
 
 #feedbackForm input[type=text] {
     width: 100%;
-    height: 100px;
+    height: 75px;
     display: inline-block;
     text-align: left;
     margin-bottom: 10px;
