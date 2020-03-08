@@ -303,7 +303,7 @@ button:focus {outline:0;}
     margin-bottom: 10px;
 }
 
-#feedbackForm userFeedback {
+#feedbackForm text {
     width: 100%;
     height: 75px;
     display: inline-block;
@@ -311,29 +311,29 @@ button:focus {outline:0;}
     margin-bottom: 10px;
 }
 
-#feedbackForm submitFeedback {
+#feedbackForm button1 {
     border: 1px solid white;
     border-radius: 15px;
     background-color: white;
     color: black;
     text-align: center;
     text-decoration: none;
-    display: block;
-    margin: 0 auto;
+    display: inline-block;
+    /*margin: 0 auto;*/
     font-size: 18px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
 }
 
-#feedbackForm cancelFeedback {
+#feedbackForm button2 {
     border: 1px solid white;
     border-radius: 15px;
     background-color: white;
     color: black;
     text-align: center;
     text-decoration: none;
-    display: block;
-    margin: 0 auto;
+    display: inline-block;
+    /*margin: 0 auto;*/
     font-size: 12px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
