@@ -44,11 +44,19 @@
     
     <!-- Feedback Form -->
     <form action="mailto:endeavortoadventure@gmail.com" id="feedbackForm">
-      <label for="userfeedbackType">What can we improve? </label> <br>
+      <label for="userfeedbackType">What can we improve? Select One:</label> <br>
+      <select id="feedbackList">
+        <option value = "1">User Interface Navigation</option>
+        <option value = "2">Page Appearance</option>
+        <option value = "3">System Response Time</option>
+        <option value = "4">Additional Capabilities</option>
+        <option value = "5">Other</option>
+      </select>
+      <!-- Comment out radio buttons to insert drop down 
       <input type="radio" name="feedbackType" value="UINav" checked>User Interface Navigation <br>
       <input type="radio" name="feedbackType" value="UIAppear" >User Interface Appearance <br>
       <input type="radio" name="feedbackType" value="SystemResponse" >System Response Time <br>
-      <input type="radio" name="feedbackType" value="Other" >Other <br> <br>
+      <input type="radio" name="feedbackType" value="Other" >Other <br> <br> -->
       <label for="userFeedback">How can we improve it? </label>
       <textarea rows="4" cols="32" name="comment" form="feedbackForm" placeholder="Enter feedback here..."></textarea> <br>
       <!--<input type="text" placeholder="Enter your feedback" name="userFeedback"> <br>-->
