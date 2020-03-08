@@ -373,8 +373,8 @@ button:focus {outline:0;}
 #feedbackForm input[type=reset] {
     /*border: 1px solid white;
     border-radius: 15px;*/
-    background-color: black;
-    color: rgb(30,144,255);
+    background-color: transparent;
+    color: white;
     text-align: center;
     text-decoration: underline;
     display: block;
@@ -383,6 +383,10 @@ button:focus {outline:0;}
     font-size: 14px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
+}
+
+#feedbackForm input[type=reset]:hover {
+    color: rgb(30,144,255);
 }
 
 /* Remove the outer blue border when a button is selected */
