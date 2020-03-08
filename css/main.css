@@ -325,6 +325,20 @@ button:focus {outline:0;}
     font-family: palatino, URW Palladio L, serif;
 }
 
+#feedbackForm button1 {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 5px 10px;
+    font-family: palatino, URW Palladio L, serif;
+}
+
 .text {
     color: white;
     font-family: palatino, URW Palladio L, serif;
