@@ -311,7 +311,7 @@ button:focus {outline:0;}
     margin-bottom: 10px;
 }
 
-#feedbackForm button1 {
+#feedbackForm button {
     border: 1px solid white;
     border-radius: 15px;
     background-color: white;
@@ -319,22 +319,8 @@ button:focus {outline:0;}
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     font-size: 18px;
-    padding: 5px 10px;
-    font-family: palatino, URW Palladio L, serif;
-}
-
-#feedbackForm button2 {
-    border: 1px solid white;
-    border-radius: 15px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    /*margin: 0 auto;*/
-    font-size: 12px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
 }
