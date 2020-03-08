@@ -287,9 +287,9 @@ button:focus {outline:0;}
     text-align: left;
     color: white;
     position: fixed;
-    top: 40%;
+    top: 35%;
     width: 20%;
-    left: 75%;
+    left: 80%;
     padding: 10px 10px;
     text-decoration: none;
     font-family: palatino, URW Palladio L, serif;
@@ -320,11 +320,16 @@ button:focus {outline:0;}
     text-decoration: none;
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-size: 18px;
     width: 90%;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
+}
+
+#feedbackForm input[type=submit]:hover {
+    color: white;
+    background-color: rgb(30,144,255);
 }
 
 #feedbackForm button {
@@ -336,8 +341,8 @@ button:focus {outline:0;}
     text-decoration: none;
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px;
-    font-size: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
 }
@@ -349,10 +354,10 @@ button:focus {outline:0;}
     color: black;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     margin: 0 auto;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
 }
