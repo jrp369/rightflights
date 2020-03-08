@@ -316,6 +316,7 @@ button:focus {outline:0;}
     width: 100%;
     display: inline-block;
     text-align: left;
+    font-size: 14px;
     margin-bottom: 10px;
     font-family: palatino, URW Palladio L, serif;
 }
@@ -371,8 +372,8 @@ button:focus {outline:0;}
 
 #feedbackForm input[type=reset] {
     /*border: 1px solid white;
-    border-radius: 15px;
-    background-color: white;*/
+    border-radius: 15px;*/
+    background-color: none;
     color: rgb(30,144,255);
     text-align: center;
     text-decoration: underline;
