@@ -295,7 +295,7 @@ button:focus {outline:0;}
     border: 1px solid black;
     border-radius: 10px;
     position: fixed;
-    top: 25%;
+    top: 30%;
     width: 20%;
     left: 79%;
     padding: 10px 10px;
@@ -306,9 +306,18 @@ button:focus {outline:0;}
 
 #feedbackForm label {
     width: 100%;
+    font-weight: 500;
     display: inline-block;
     text-align: left;
     margin-bottom: 10px;
+}
+
+#feedbackForm select {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: palatino, URW Palladio L, serif;
 }
 
 #feedbackForm input[type=text] {
@@ -356,15 +365,15 @@ button:focus {outline:0;}
 }
 
 #feedbackForm input[type=reset] {
-    border: 1px solid white;
+    /*border: 1px solid white;
     border-radius: 15px;
-    background-color: white;
-    color: black;
+    background-color: white;*/
+    color: rgb(30,144,255);
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     font-size: 14px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
