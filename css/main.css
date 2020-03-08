@@ -303,7 +303,7 @@ button:focus {outline:0;}
     margin-bottom: 10px;
 }
 
-#feedbackForm text {
+#feedbackForm userFeedback {
     width: 100%;
     height: 75px;
     display: inline-block;
@@ -311,7 +311,7 @@ button:focus {outline:0;}
     margin-bottom: 10px;
 }
 
-#feedbackForm button {
+#feedbackForm submitFeedback {
     border: 1px solid white;
     border-radius: 15px;
     background-color: white;
@@ -325,7 +325,7 @@ button:focus {outline:0;}
     font-family: palatino, URW Palladio L, serif;
 }
 
-#feedbackForm button1 {
+#feedbackForm cancelFeedback {
     border: 1px solid white;
     border-radius: 15px;
     background-color: white;
