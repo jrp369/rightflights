@@ -84,6 +84,8 @@ body, html {
 #searchMenu {
     display: none;
     text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
     color: white;
     position: fixed;
     top: 35%;
@@ -123,6 +125,8 @@ body, html {
 #loginform {
   color: white;
   position: fixed;
+  border: 1px solid black;
+  border-radius: 10px;
   top: 60px;
   left: 78%;
   background-color: black;
@@ -271,6 +275,8 @@ button:focus {outline:0;}
     transform: rotate(270deg);
     overflow: auto;
     color: white;
+    border: 1px solid rgb(30,144,255);
+    border-radius: 8px;
     background-color: rgb(30,144,255);
     font-size: 18px;
     padding: 10px 14px;    
@@ -286,6 +292,8 @@ button:focus {outline:0;}
     display: none;
     text-align: left;
     color: white;
+    border: 1px solid black;
+    border-radius: 10px;
     position: fixed;
     top: 25%;
     width: 20%;
