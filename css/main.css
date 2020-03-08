@@ -362,6 +362,11 @@ button:focus {outline:0;}
     font-family: palatino, URW Palladio L, serif;
 }
 
+/* Remove the outer blue border when a button is selected */
+#feedbackForm button:focus {outline:0;}
+#feedbackForm input[type=submit]:focus {outline:0;}
+#feedbackForm input[type=reset]:focus {outline:0;}
+
 .text {
     color: white;
     font-family: palatino, URW Palladio L, serif;
