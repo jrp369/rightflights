@@ -295,7 +295,7 @@ button:focus {outline:0;}
     border: 1px solid black;
     border-radius: 10px;
     position: fixed;
-    top: 30%;
+    top: 35%;
     width: 20%;
     left: 79%;
     padding: 10px 10px;
@@ -306,7 +306,7 @@ button:focus {outline:0;}
 
 #feedbackForm label {
     width: 100%;
-    font-weight: 500;
+    font-weight: bold;
     display: inline-block;
     text-align: left;
     margin-bottom: 10px;
@@ -373,7 +373,7 @@ button:focus {outline:0;}
 #feedbackForm input[type=reset] {
     /*border: 1px solid white;
     border-radius: 15px;*/
-    background-color: none;
+    background-color: black;
     color: rgb(30,144,255);
     text-align: center;
     text-decoration: underline;
