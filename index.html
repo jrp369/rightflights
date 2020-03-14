@@ -63,6 +63,20 @@
       <input type="submit" value="Submit Feedback">
       <button type="button" id="cancelFeedback">Cancel</button>
       <input type="reset" value="Reset Form">
+      
+      <?php
+        $message = $_GET['comment'];
+
+        $email_from = 'endeavortoadventure@gmail.com';
+        $email_subject = "New Feedback";
+        $email_body = "You have received new feedback.\n".
+                                  "Here is the comment:\n $message".
+
+        $to = "endeavortoadventure@gmail.com";
+        $headers = "From: $email_from \r\n";
+        mail($to,$email_subject,$email_body,$headers);
+      ?>
+      
     </form>
     <!--<br>
     <textarea rows="4" cols="50" name="comment" form="feedbackForm">Enter feedback here...</textarea>-->
