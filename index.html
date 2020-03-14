@@ -198,6 +198,16 @@
     });
   </script> 
   
+  <!-- JQuery script to hide Feedback Button when clicked -->
+  <script>
+    $(document).ready(function() {
+      $("#cancelFeedback").click(function() {
+        $("#feedback_button").show();
+        $("feedbackForm").hide();
+      });
+    });
+  </script> 
+  
 </body>
 </html>                                                  
  
