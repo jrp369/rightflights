@@ -1,6 +1,6 @@
 <?php
-  $feedback_type = $_POST['value'];
-  $message = $_POST['comment'];
+  $feedback_type = $_GET['value'];
+  $message = $_GET['comment'];
   
   $email_from = 'endeavortoadventure@gmail.com';
 	$email_subject = "New Feedback: $value";
