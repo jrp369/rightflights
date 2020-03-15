@@ -24,7 +24,6 @@
   </div>
   
   <div class="login">
-    <!-- <span> <a href="index.html">Login</a> </span>   <!-- Should display login box with email and password -->
     <button type="button" id="formButton">Login</button>  
     <span> <a href="index.html">Create an Account</a> </span>
   </div>
@@ -52,20 +51,12 @@
         <option value = "4">Additional Capabilities</option>
         <option value = "5">Other</option>
       </select>
-      <!-- Comment out radio buttons to insert drop down 
-      <input type="radio" name="feedbackType" value="UINav" checked>User Interface Navigation <br>
-      <input type="radio" name="feedbackType" value="UIAppear" >User Interface Appearance <br>
-      <input type="radio" name="feedbackType" value="SystemResponse" >System Response Time <br>
-      <input type="radio" name="feedbackType" value="Other" >Other <br> <br> -->
       <label for="userFeedback">How can we improve it? </label>
       <textarea rows="4" cols="32" name="comment" form="feedbackForm" placeholder="Enter feedback here..."></textarea> <br>
-      <!--<input type="text" placeholder="Enter your feedback" name="userFeedback"> <br>-->
       <input type="submit" value="Submit Feedback">
       <button type="button" id="cancelFeedback">Cancel</button>
       <input type="reset" value="Reset Form">    
     </form>
-    <!--<br>
-    <textarea rows="4" cols="50" name="comment" form="feedbackForm">Enter feedback here...</textarea>-->
     
     <!-- Don't include these for the time being
     <div class="header_text">
@@ -82,11 +73,6 @@
         <span class="text1">ETA</span>
         <span class="text2">ENDEAVOR TO ADVENTURE</span>
       </div>
-
-    <!-- Set the custom links from the Home page -->
-    <!-- Don't need this right now - keeping it basic
-    <a href="login.html">Login or Sign Up</a>
-  -->
     
     <!-- Button to have search form appear -->
     <div id="button">
@@ -100,22 +86,28 @@
     
     <!-- Search Menu to create itinerary -->
     <form id="searchMenu">
-      <!--<label for="trip">One-Way:</label>-->
-      <input type="radio" name="trip" value="roundtrip" checked>Roundtrip
-      <input type="radio" name="trip" value="one-way">One-Way
-      <input type="radio" name="trip" value="multi-city">Multi-City<br>
-      
-      <label for="departure_airport">Departure Airport: </label>
-      <input id="departure_airport" type="text" /> <br>
-      <label for"departure_date">  Departure Date:</label>
-      <input id="departure_date" type="date" /> <br>
-
-      <label for="destination">Destination Airport: </label>
-      <input id="destination" type="text" /> <br>
-      <label for"num_nights">  Number of Nights:</label>
-      <input id="num_nights" type="text" /> <br>
-
-      <button type="button" id="submit">Search Flights</button>
+      <div id="triptype">
+        <input type="radio" name="trip" value="roundtrip" checked>Roundtrip
+        <input type="radio" name="trip" value="one-way">One-Way
+        <input type="radio" name="trip" value="multi-city">Multi-City
+      </div>
+      <div id="triplabels">
+        <label for="departure_airport">From</label>
+        <label for="destination">To</label>
+        <label for="departure_date">Depart</label>
+        <label for="return_date">Return</label>
+        <label for="travelers">Travelers</label>
+      </div>
+      <div id="tripinputs">
+        <input id="departure_airport" type="text" />
+        <input id="destination" type="text" />
+        <input id="departure_date" type="date" />
+        <input id="return_date" type="text" />
+        <input type="number" id="travelers" name="travelers" min="1" max="4">
+      </div>
+      <div id="buttons">
+        <button type="button" id="submit">Search Flights</button>
+      </div>
     </form>
       
   </div>
