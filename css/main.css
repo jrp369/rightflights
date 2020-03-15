@@ -98,7 +98,7 @@ body, html {
 }
 
 #searchMenu label {
-    width: 120px;
+    width: 130px;
     display: inline-block;
     text-align: left;
     margin-top: 10px;
@@ -106,14 +106,31 @@ body, html {
     font-family: palatino, URW Palladio L, serif;
 }
 
-#searchMenu text {
+#searchMenu input[type=text] {
     display: inline-block;
-    width: 150px;
+    width: 130px;
     text-align: left;
     font-family: palatino, URW Palladio L, serif;
 }
 
-#searchMenu radio {
+#searchMenu input[type=date] {
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+    font-family: palatino, URW Palladio L, serif;
+}
+
+#searchMenu input[type=number] {
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+    font-family: palatino, URW Palladio L, serif;
+}
+
+#searchMenu input[type=radio] {
+    display: inline-block;
+    width 150px;
+    text-align: center;
     margin-bottom: 10px;
     font-family: palatino, URW Palladio L, serif;
 }
@@ -132,9 +149,10 @@ body, html {
     font-family: palatino, URW Palladio L, serif;
 }
 
-#searchMenu button {
+#searchMenu button:hover {
     color: white;
     background-color: rgb(30,144,255);
+    margin-top: 10px;
 }
 
 #loginform {
