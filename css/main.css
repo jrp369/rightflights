@@ -91,6 +91,7 @@ body, html {
     top: 35%;
     width: 70%;
     left: 15%;
+    font-size: 16px;
     padding: 10px 10px;
     text-decoration: none;
     font-family: palatino, URW Palladio L, serif;
@@ -109,20 +110,23 @@ body, html {
 #searchMenu input[type=text] {
     display: inline-block;
     width: 130px;
+    font-size: 16px;
     text-align: left;
     font-family: palatino, URW Palladio L, serif;
 }
 
 #searchMenu input[type=date] {
     display: inline-block;
-    width: 130px;
+    width: 155px;
+    font-size: 16px;
     text-align: left;
     font-family: palatino, URW Palladio L, serif;
 }
 
 #searchMenu input[type=number] {
     display: inline-block;
-    width: 130px;
+    width: 150px;
+    font-size: 16px;
     text-align: left;
     font-family: palatino, URW Palladio L, serif;
 }
@@ -130,6 +134,7 @@ body, html {
 #searchMenu input[type=radio] {
     display: inline-block;
     width 150px;
+    font-size: 16px;
     text-align: center;
     margin-bottom: 10px;
     font-family: palatino, URW Palladio L, serif;
@@ -144,6 +149,7 @@ body, html {
     text-decoration: none;
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
     font-size: 18px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
@@ -152,7 +158,6 @@ body, html {
 #searchMenu button:hover {
     color: white;
     background-color: rgb(30,144,255);
-    margin-top: 10px;
 }
 
 #loginform {
