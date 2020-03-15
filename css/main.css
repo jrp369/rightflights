@@ -89,8 +89,8 @@ body, html {
     color: white;
     position: fixed;
     top: 35%;
-    width: 30%;
-    left: 35%;
+    width: 60%;
+    left: 20%;
     padding: 10px 10px;
     text-decoration: none;
     font-family: palatino, URW Palladio L, serif;
@@ -100,12 +100,22 @@ body, html {
 #searchMenu label {
     width: 150px;
     display: inline-block;
-    text-align: right;
+    text-align: left;
+    margin-top: 10px;
     margin-bottom: 10px;
+    font-family: palatino, URW Palladio L, serif;
+}
+
+#searchMenu text {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    font-family: palatino, URW Palladio L, serif;
 }
 
 #searchMenu radio {
     margin-bottom: 10px;
+    font-family: palatino, URW Palladio L, serif;
 }
 
 #searchMenu button {
@@ -120,6 +130,11 @@ body, html {
     font-size: 18px;
     padding: 5px 10px;
     font-family: palatino, URW Palladio L, serif;
+}
+
+#searchMenu button {
+    color: white;
+    background-color: rgb(30,144,255);
 }
 
 #loginform {
